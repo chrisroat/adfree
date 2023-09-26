@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    {% block head %}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    {{ bootstrap.load_css() }}
+    {% block styles %}{% endblock %}
+    <title>#adfree</title>
+    {% endblock %}
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <h1>AdFree</h1>
+            {% block content %}{% endblock %}
+        </div>
+    </div>
+    {{ bootstrap.load_js() }}
+    {% block scripts %}{% endblock %}
+</body>
+
+</html>

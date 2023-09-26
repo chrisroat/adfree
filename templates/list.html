@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="row">
+  <div class="col-md-8 offset-md-2">
+    <dl>
+      {% for kind, items in data.items() %}
+      <dt>{{ kind }}</dt>
+      <dd>
+        <ul>
+          {% for item in items %}
+          <li>
+            <a href="{{ item.signup }}">{{ item.title }}</a>{% if item.desc %}: {{ item.desc }}{% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+      </dd>
+      {% endfor %}
+    </dl>
+  </div>
+</div>
+{% endblock %}

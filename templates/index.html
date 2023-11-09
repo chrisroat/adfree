@@ -9,10 +9,17 @@
     generate clickbait for revenue. And consumers get faster loading pages,
     more valuable content, and safer internet experiences.
   </p>
-  <div class="col-md-8 offset-md-2">
+  <p class="text-center">
+    <a href="https://forms.gle/hzdsUug7V6EpRPK56">Please tell us about services missing from our list!</a>
+  </p>
+
+  {% set grouped = data|groupby("kind") %}
+
+  {% for batched in grouped|batch(grouped|length//2) %}
+  <div class="col-md-4{% if not loop.first %} offset-md-1{% endif %}">
     <dl>
       <hr>
-      {% for kind, items in data|groupby("kind") %}
+      {% for kind, items in batched %}
       <dt>{{ kind|upper }}</dt>
       <dd>
         {% for subject, items in items|groupby("subject") %}
@@ -32,5 +39,6 @@
       {% endfor %}
     </dl>
   </div>
+  {% endfor %}
 </div>
 {% endblock %}

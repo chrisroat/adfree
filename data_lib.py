@@ -39,7 +39,7 @@ def translate_item(item):
 
 def make_columns(type_data, num_columns=3):
     """Sorts and divides items into columns."""
-    total = sum(len(v) for v in type_data.values()) + 2.1 * len(type_data)
+    total = sum(len(v) for v in type_data.values()) + 2 * len(type_data) + num_columns
     col_size = math.ceil(total / num_columns)
     cols = [[]]
     count = 1  # Headings take up space

@@ -1,0 +1,86 @@
+type,subtype,name,has_adfree,homepage,signup,lat,lon,area,image
+news,MA,Boston Herald,yes,https://www.bostonherald.com/,https://checkout.bostonherald.com/,42.3601,-71.0589,east,https://medianewsgroup.com/wp-content/uploads/2022/09/BH_logo_4c-FINAL.png
+news,CO,Canon City Daily Record,yes,https://www.canoncitydailyrecord.com/,https://checkout.canoncitydailyrecord.com/,38.4494,-105.2253,west,https://medianewsgroup.com/wp-content/uploads/2022/09/Daily-Record-Logo.png
+news,CA,Daily Breeze,yes,https://www.dailybreeze.com/,https://checkout.dailybreeze.com/,33.8358,-118.342794,west,https://medianewsgroup.com/wp-content/uploads/2022/09/Torrance_Daily_Breeze.png
+news,PA,Daily Local News,yes,https://www.dailylocal.com/,https://checkout.dailylocal.com/,40.0326,-75.629694,east,https://medianewsgroup.com/wp-content/uploads/2022/09/DailyLocalNews.jpg
+news,PA,Delaware County Daily Times,yes,https://www.delcotimes.com/,https://checkout.delcotimes.com/,39.9021,-75.352094,east,https://medianewsgroup.com/wp-content/uploads/2022/09/DailyTimes.jpg
+news,CA,East Bay Times,yes,https://www.eastbaytimes.com/,https://checkout.eastbaytimes.com/,37.9296806,-122.0247098,west,https://medianewsgroup.com/wp-content/uploads/2022/09/eastbaytimeslogo.png
+news,CO,Estes Park Trail-Gazette,yes,https://www.eptrail.com/,https://checkout.eptrail.com/,40.3772,-105.5217,west,
+news,CA,Eureka Times Standard,yes,https://www.times-standard.com/,https://checkout.times-standard.com/,40.8021,-124.1637,west,https://medianewsgroup.com/wp-content/uploads/2022/09/times-standard-logo.png
+news,MA,Fitchburg Sentinel & Enterprise,yes,https://www.sentinelandenterprise.com/,https://checkout.sentinelandenterprise.com/,42.5834,-71.804494,east,https://medianewsgroup.com/wp-content/uploads/2022/09/Sentinel_Logo.png
+news,CO,Greeley Tribune,yes,https://www.greeleytribune.com/,https://checkout.greeleytribune.com/,40.4233,-104.7091,west,https://medianewsgroup.com/wp-content/uploads/2022/09/GreeleyTribune-mainlogo.png
+news,CA,Inland Valley Daily Bulletin,yes,https://www.dailybulletin.com/,https://checkout.dailybulletin.com/,34.0651576,-117.5824269,west,https://www.medianewsgroup.com/wp-content/uploads/2022/09/Inland_Valley_Daily_Bulletin.png
+news,CA,Lake County Record Bee,yes,https://www.record-bee.com/,https://checkout.record-bee.com/,39.0375266,-122.942158,west,https://medianewsgroup.com/wp-content/uploads/2022/09/LAKEPORT-RECORD-BEE-PNG.png
+news,CO,Longmont Times-Call,yes,https://www.timescall.com/,https://checkout.timescall.com/,40.1672,-105.1019,west,https://www.medianewsgroup.com/wp-content/uploads/2022/09/TClogo_horizColor.png
+news,CA,Los Angeles Daily News,yes,https://www.dailynews.com/,https://checkout.dailynews.com/,34.0522,-118.245894,west,https://medianewsgroup.com/wp-content/uploads/2022/09/Los_Angeles_Daily_News.png
+news,CO,Loveland Reporter-Herald,yes,https://www.reporterherald.com/,https://checkout.reporterherald.com/,40.3978,-105.075,west,https://www.medianewsgroup.com/wp-content/uploads/2022/09/RHLogo_color.png
+news,MA,Lowell Sun,yes,https://www.lowellsun.com/,https://checkout.lowellsun.com/,42.6334,-71.318394,east,https://www.medianewsgroup.com/wp-content/uploads/2022/09/Sun_VectorLogo.png
+news,CA,Marin Independent Journal,yes,https://www.marinij.com/,https://checkout.marinij.com/,37.951893,-122.495887,west,https://medianewsgroup.com/wp-content/uploads/2022/09/marinindependentjournallog-1.png
+news,CA,Monterey Herald,yes,https://www.montereyherald.com/,https://checkout.montereyherald.com/,36.6002,-121.8947,west,
+news,MI,Morning Sun,yes,https://www.themorningsun.com/,https://checkout.themorningsun.com/,,,,https://medianewsgroup.com/wp-content/uploads/2022/09/MorningSun2016_Vector.png
+news,PA,Norristown Times Herald,yes,https://www.timesherald.com/,https://checkout.timesherald.com/,40.1215,-75.342094,east,
+news,NY,Oneida Daily Dispatch,yes,https://www.oneidadispatch.com/,https://checkout.oneidadispatch.com/,43.0926,-75.653494,east,
+news,CA,Oroville Mercury-Register,yes,https://www.orovillemr.com/,https://checkout.orovillemr.com/,39.5138,-121.5564,west,https://medianewsgroup.com/wp-content/uploads/2022/09/OROVILLE-LOGO-PNG.png
+news,CA,Pasadena Star News,yes,https://www.pasadenastarnews.com/,https://checkout.pasadenastarnews.com/,34.1478,-118.146694,west,https://medianewsgroup.com/wp-content/uploads/2022/09/Pasadena_Star-News.png
+news,MI,Press and Guide,yes,https://www.pressandguide.com/,https://checkout.pressandguide.com/,42.3223,-83.178494,midwest,
+news,CA,Press Telegram,yes,https://www.presstelegram.com/,https://checkout.presstelegram.com/,33.7701,-118.195894,west,
+news,CA,Red Bluff Daily News,yes,https://www.redbluffdailynews.com/,https://checkout.redbluffdailynews.com/,40.17851222,-122.2358,west,https://medianewsgroup.com/wp-content/uploads/2022/09/RED-BLUFF-LOGO-PNG.png
+news,CA,Redlands Daily Facts,yes,https://www.redlandsdailyfacts.com/,https://checkout.redlandsdailyfacts.com/,34.0564,-117.208094,west,https://medianewsgroup.com/wp-content/uploads/2022/09/Redlands_Daily_Facts.png
+news,MI,Royal Oak Tribune,yes,https://www.dailytribune.com/,https://checkout.dailytribune.com/,42.4895,-83.146794,midwest,
+news,CA,San Bernardino Sun,yes,https://www.sbsun.com/,https://checkout.sbsun.com/,34.1083,-117.291994,west,https://www.medianewsgroup.com/wp-content/uploads/2022/09/San_Bernardino_The_Sun.png
+news,CA,San Gabriel Valley Tribune,yes,https://www.sgvtribune.com/,https://checkout.sgvtribune.com/,34.0961,-118.107994,west,https://medianewsgroup.com/wp-content/uploads/2022/09/San_Gabriel_Valley_Tribune.png
+news,CA,Santa Cruz Sentinel,yes,https://www.santacruzsentinel.com/,https://checkout.santacruzsentinel.com/,36.9872337,-122.0373429,west,https://medianewsgroup.com/wp-content/uploads/2022/09/SANTA-CRUZ-LOGO-PNG.png
+news,CO,Sterling Journal-Advocate,yes,https://www.journal-advocate.com/,https://checkout.journal-advocate.com/,40.6255,-103.2098917,west,https://medianewsgroup.com/wp-content/uploads/2022/09/Journal-Advocate-logo.png
+news,CA,The Chico Enterprise-Record,yes,https://www.chicoer.com/,https://checkout.chicoer.com/,39.7285,-121.8375,west,https://medianewsgroup.com/wp-content/uploads/2022/09/CHICO-LOGO-PNG.png
+news,CO,The Daily Camera,yes,https://www.dailycamera.com/,https://checkout.dailycamera.com/,40.015,-105.2705,west,https://medianewsgroup.com/wp-content/uploads/2022/09/DailyCamera-Green.png
+news,NY,The Daily Freeman,yes,https://www.dailyfreeman.com/,https://checkout.dailyfreeman.com/,41.927,-73.999594,east,https://medianewsgroup.com/wp-content/uploads/2022/09/DAILY-FREEMAN-LOGO.jpg
+news,CO,The Denver Post,yes,https://www.denverpost.com/,https://checkout.denverpost.com/,39.7392,-104.992494,west,https://www.medianewsgroup.com/wp-content/uploads/2022/09/Denver-Post-logo.png
+news,CO,The Fort Morgan Times,yes,https://www.fortmorgantimes.com/,https://checkout.fortmorgantimes.com/,40.2503,-103.8,west,https://medianewsgroup.com/wp-content/uploads/2022/09/Fort-Morgan-Times-logo.png
+news,PA,The Lansdale Reporter,yes,https://www.thereporteronline.com/,https://checkout.thereporteronline.com/,40.2415,-75.285994,east,https://medianewsgroup.com/wp-content/uploads/2022/09/TheReporter.jpg
+news,MI,The Macomb Daily,yes,https://www.macombdaily.com/,https://checkout.macombdaily.com/,42.6652,-82.930794,midwest,https://medianewsgroup.com/wp-content/uploads/2022/09/MacombDailyvector.png
+news,PA,The Mercury,yes,https://www.pottsmerc.com/,https://checkout.pottsmerc.com/,40.2454,-75.651794,east,https://medianewsgroup.com/wp-content/uploads/2022/09/TheMercury.jpg
+news,CA,The Mercury News,yes,https://www.mercurynews.com/,https://checkout.mercurynews.com/,37.3387,-121.887494,west,https://medianewsgroup.com/wp-content/uploads/2022/09/THE-Mercury-News-logo-2.png
+news,OH,The Morning Journal,yes,https://www.morningjournal.com/,https://checkout.morningjournal.com/,41.4528,-82.184594,midwest,https://medianewsgroup.com/wp-content/uploads/2022/09/TheMorningJournal-1.png
+news,OH,The News-Herald,yes,https://www.news-herald.com/,https://checkout.news-herald.com/,41.6478816,-81.3914893,midwest,https://medianewsgroup.com/wp-content/uploads/2022/09/TheNewsHerald.png
+news,MI,The Oakland Press,yes,https://www.theoaklandpress.com/,https://checkout.theoaklandpress.com/,42.5922,-83.338394,midwest,https://medianewsgroup.com/wp-content/uploads/2022/09/OaklandPress1LineBlue.png
+news,CA,The Orange County Register,yes,https://www.ocregister.com/,https://checkout.ocregister.com/,33.8047833,-117.9009129,west,https://medianewsgroup.com/wp-content/uploads/2022/09/The_Orange_County_Register.jpg
+news,CA,The Press-Enterprise,yes,https://www.pressenterprise.com/,https://checkout.pressenterprise.com/,33.9806,-117.377694,west,https://medianewsgroup.com/wp-content/uploads/2022/09/The_Press-Enterprise.png
+news,PA,The Reading Eagle,yes,https://www.readingeagle.com/,https://checkout.readingeagle.com/,40.3356,-75.929094,east,
+news,CA,The Reporter,yes,https://www.thereporter.com/,https://checkout.thereporter.com/,38.3566,-121.9877,west,https://medianewsgroup.com/wp-content/uploads/2022/09/Weekly-Review-Logo.png
+news,NY,The Saratogian,yes,https://www.saratogian.com/,https://checkout.saratogian.com/,43.0615524,-73.91527,east,https://medianewsgroup.com/wp-content/uploads/2022/09/saratogian-with-web.jpg
+news,NJ,The Trentonian,yes,https://www.trentonian.com/,https://checkout.trentonian.com/,40.2206,-74.761894,east,https://medianewsgroup.com/wp-content/uploads/2022/09/TheTrentonian.jpg
+news,NY,The Troy Record,yes,https://www.troyrecord.com/,https://checkout.troyrecord.com/,42.7284,-73.693994,east,https://medianewsgroup.com/wp-content/uploads/2022/09/TheRecord-with-web.jpg
+news,MN,Twin Cities Pioneer Press,yes,https://www.twincities.com/,https://checkout.twincities.com/,44.9426461,-93.083544,midwest,https://medianewsgroup.com/wp-content/uploads/2022/10/Screen-Shot-2022-10-05-at-6.33.22-PM.png
+news,CA,Ukiah Daily Journal,yes,https://www.ukiahdailyjournal.com/,https://checkout.ukiahdailyjournal.com/,39.1502,-123.2078,west,https://medianewsgroup.com/wp-content/uploads/2022/09/ukiah-logo-png.png
+news,CA,Vallejo Times-Herald,yes,https://www.timesheraldonline.com/,https://checkout.timesheraldonline.com/,38.1041,-122.2566,west,https://medianewsgroup.com/wp-content/uploads/2022/09/TIMES-HERALD-LOGO-PNG.png
+news,CA,Whittier Daily News,yes,https://www.whittierdailynews.com/,https://checkout.whittierdailynews.com/,33.9792,-118.034994,west,https://medianewsgroup.com/wp-content/uploads/2022/09/Whittier_Daily_News.png
+news,CA,Woodland Daily Democrat,yes,https://www.dailydemocrat.com/,https://checkout.dailydemocrat.com/,38.6785,-121.7733,west,https://medianewsgroup.com/wp-content/uploads/2022/09/DAILY-DEMOCRAT-PNG-1.png
+news,,The Atlantic,yes,https://www.theatlantic.com/,https://www.theatlantic.com/subscribe,,,,
+news,,The Guardian,yes,https://www.theguardian.com//,https://support.theguardian.com/us,,,,
+podcast,astronomy,Astronomy Cast,yes,https://www.astronomycast.com/,https://www.patreon.com/astronomycast,,,,
+podcast,astronomy,Universe Today,yes,https://www.universetoday.com/,https://www.patreon.com/universetoday,,,,
+podcast,economics,Freakonomics,yes,https://freakonomics.com,https://freakonomics.com/plus,,,,
+podcast,"cosmology, physics, philosophy",Mindscape,yes,https://www.preposterousuniverse.com/podcast/,https://www.patreon.com/seanmcarroll,,,,
+news,,Akron News Reporter,no,https://www.akronnewsreporter.com/,,40.1605,-103.2144,west,
+news,,Broomfield Enterprise,no,https://www.broomfieldenterprise.com/,,39.9205,-105.0867,west,
+news,,Buff Zone,no,https://www.buffzone.com/,,40.0076,-105.2659,west,
+news,,Chicago Tribune,no,https://www.chicagotribune.com/,,41.8939378,-87.6407368,midwest,https://medianewsgroup.com/wp-content/uploads/2022/09/Chicago-Tribune.png
+news,,Daily Press,no,https://www.dailypress.com/,,37.0862179,-76.4734539,east,https://medianewsgroup.com/wp-content/uploads/2022/09/DailyPress.png
+news,,Fort Bragg Advocate-News,no,https://www.advocate-news.com/,,39.4457,-123.8053,west,
+news,,Julesburg Advocate,no,https://www.julesburgadvocate.com/,,40.9883,-102.2644,west,
+news,,Lamar Ledger,no,https://www.lamarledger.com/,,38.0872,102.6207,west,
+news,,Nashoba Valley Voice,no,https://www.nashobavalleyvoice.com/,,42.5373,-71.5128,east,
+news,,NY Daily News,no,https://www.nydailynews.com/,,40.7128,-74.006,east,https://medianewsgroup.com/wp-content/uploads/2022/09/Screen-Shot-2022-09-28-at-4.11.16-PM.png
+news,,Orlando Sentinel,no,https://www.orlandosentinel.com/,,28.5523503,-81.3805284,east,https://medianewsgroup.com/wp-content/uploads/2022/09/Screen-Shot-2022-09-28-at-4.24.57-PM.png
+news,,Paradise Post,no,https://www.paradisepost.com/,,39.7596,-121.6219,west,
+news,,South Florida Sun Sentinel,no,https://www.sun-sentinel.com/,,26.3142911,-80.123941,east,https://medianewsgroup.com/wp-content/uploads/2022/09/Screen-Shot-2022-09-28-at-4.24.03-PM.png
+news,,South Platte Sentinel,no,https://www.southplattesentinel.com/,,40.6253796,-103.2098917,west,
+news,,The Baltimore Sun,no,https://www.baltimoresun.com/,,39.2656647,-76.6112737,east,https://medianewsgroup.com/wp-content/uploads/2022/09/Baltimore-Sun.png
+news,,The Burlington Record,no,https://www.burlington-record.com/,,39.3061,-102.2694,west,
+news,,The Capital Gazette,no,https://www.capitalgazette.com/,,38.9941667,-76.5457998,east,https://medianewsgroup.com/wp-content/uploads/2022/09/Capital-Gazette.png
+news,,The Hartford Courant,no,https://www.courant.com/,,41.7357357,-72.6961388,east,https://medianewsgroup.com/wp-content/uploads/2022/09/HartfordCourant.png
+news,,The Lehigh Morning Call,no,https://www.mcall.com/,,40.6023,-75.4735887,east,https://medianewsgroup.com/wp-content/uploads/2022/09/MorningCall.png
+news,,The Mendocino Beacon,no,https://www.mendocinobeacon.com/,,39.3077,-123.7995,west,
+news,,The Virginian-Pilot,no,https://www.pilotonline.com/,,,,,https://medianewsgroup.com/wp-content/uploads/2022/09/virginian_pilot.png
+news,,The Voice,no,https://www.voicenews.com/,,42.5803,-83.032394,midwest,
+news,,The Willits News,no,https://www.willitsnews.com/,,39.409608,-123.355566,west,

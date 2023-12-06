@@ -6,7 +6,6 @@ name = "pypi"
 [packages]
 bootstrap-flask = "*"
 flask = "*"
-gunicorn = "*"
 us = "*"
 frozen-flask = "*"
 

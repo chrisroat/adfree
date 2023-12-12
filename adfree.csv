@@ -56,11 +56,15 @@ news,CA,Vallejo Times-Herald,yes,https://www.timesheraldonline.com/,https://chec
 news,CA,Whittier Daily News,yes,https://www.whittierdailynews.com/,https://checkout.whittierdailynews.com/,33.9792,-118.034994,west,https://medianewsgroup.com/wp-content/uploads/2022/09/Whittier_Daily_News.png
 news,CA,Woodland Daily Democrat,yes,https://www.dailydemocrat.com/,https://checkout.dailydemocrat.com/,38.6785,-121.7733,west,https://medianewsgroup.com/wp-content/uploads/2022/09/DAILY-DEMOCRAT-PNG-1.png
 news,,The Atlantic,yes,https://www.theatlantic.com/,https://www.theatlantic.com/subscribe,,,,
-news,,The Guardian,yes,https://www.theguardian.com//,https://support.theguardian.com/us,,,,
+news,,The Guardian,yes,https://www.theguardian.com/,https://support.theguardian.com/us,,,,
+news,,Blaze Media,yes,https://www.theblaze.com/,https://subscribe.blazemedia.com/,,,,
 podcast,astronomy,Astronomy Cast,yes,https://www.astronomycast.com/,https://www.patreon.com/astronomycast,,,,
 podcast,astronomy,Universe Today,yes,https://www.universetoday.com/,https://www.patreon.com/universetoday,,,,
 podcast,economics,Freakonomics,yes,https://freakonomics.com,https://freakonomics.com/plus,,,,
 podcast,"cosmology, physics, philosophy",Mindscape,yes,https://www.preposterousuniverse.com/podcast/,https://www.patreon.com/seanmcarroll,,,,
+platform,podcast,Amazon Prime Music,yes,https://www.amazon.com/amazonprime,,,,,
+platform,movies & TV,Amazon Prime Video,yes,https://www.amazon.com/amazonprime,,,,,
+platform,movies & TV,Netflix,yes,https://www.netflix.com/,,,,,
 news,,Akron News Reporter,no,https://www.akronnewsreporter.com/,,40.1605,-103.2144,west,
 news,,Broomfield Enterprise,no,https://www.broomfieldenterprise.com/,,39.9205,-105.0867,west,
 news,,Buff Zone,no,https://www.buffzone.com/,,40.0076,-105.2659,west,

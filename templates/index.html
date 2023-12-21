@@ -13,7 +13,7 @@
 
 <div>
   <ul class="nav nav-tabs" id="myTab" role="tablist">
-    {% for type, cols in data.items() %}
+    {% for type, cols in data %}
     <li class="nav-item" role="presentation">
       <button class="nav-link{% if loop.first %} active{% endif %}" id="{{type}}-tab" data-bs-toggle="tab"
         data-bs-target="#{{type}}-tab-pane" type="button" role="tab" aria-controls="{{type}}-tab-pane"
@@ -22,24 +22,29 @@
     {% endfor %}
   </ul>
   <div class="tab-content" id="myTabContent">
-    {% for type, cols in data.items() %}
+    {% for type, cols in data %}
     <div class="tab-pane fade{% if loop.first %} show active{% endif %}" id="{{type}}-tab-pane" role="tabpanel"
       aria-labelledby="{{type}}-tab" tabindex="0">
       <div class="row mt-3">
         {% for col in cols %}
-        {% set grouped = col|groupby("subtype") %}
         <div class="col-md-4">
           <dl>
-            {% for subtype, items in grouped %}
-            <dt>{{ (subtype or "global")|title }}</dt>
-            <dd>
-              <ul class="list-unstyled">
-                {% for item in items %}
-                <li><a href="{{ item.homepage }}" target="_blank">{{ item.name }}</a></li>
-                {% endfor %}
+            {% set ns = namespace(subtype="") %}      
+            {% for item in col %}
+            {% if item.subtype != ns.subtype %}
+            {% set ns.subtype = item.subtype %}
+            {% if not loop.first %}
               </ul>
             </dd>
+            {% endif %}
+            <dt>{{ item.subtype|title }}</dt>
+            <dd>
+              <ul class="list-unstyled">
+            {% endif %}
+                <li><a href="{{ item.homepage }}" target="_blank">{{ item.name }}</a></li>
             {% endfor %}
+              </ul>
+            </dd>
           </dl>
         </div>
         {% endfor %}

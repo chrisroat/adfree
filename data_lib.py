@@ -8,11 +8,8 @@ from us import states
 
 def load():
     raw = read_raw()
-    data = raw_to_dict(raw)
-    for type_, type_data in data.items():
-        data[type_] = make_columns(type_data)
-    return data
-
+    dct = raw_to_dict(raw)
+    return [(k, make_columns(v)) for k, v in sorted(dct.items())]
 
 def read_raw():
     path = Path(__file__).resolve().parent / "adfree.csv"
@@ -43,11 +40,11 @@ def make_columns(type_data, num_columns=3):
     col_size = math.ceil(total / num_columns)
     cols = [[]]
     count = 1  # Headings take up space
-    for subtype in sorted(type_data):
+    for subtype in subtype_sort(type_data.keys()):
         items = type_data[subtype]
         if count > 1:
             count += 2  # Headings mid-column take up extra space
-        for item in sorted(items, key=lambda x: remove_the(x["name"])):
+        for item in sorted(items, key=remove_the):
             if count >= col_size:
                 cols.append([])
                 count = 1
@@ -55,6 +52,12 @@ def make_columns(type_data, num_columns=3):
             count += 1
     return cols
 
+PRIORITY_KEYS = ['national or world', 'network podcast']
+def subtype_sort(keys):
+    priority = [key for key in PRIORITY_KEYS if key in keys]
+    normal = sorted(set(keys).difference(PRIORITY_KEYS))
+    return  priority + normal
 
-def remove_the(name):
+def remove_the(item):
+    name = item["name"]
     return name[4:] if name.startswith("The ") else name

@@ -12,7 +12,5 @@ data = data_lib.load()
 @app.route("/")
 def index():
     # Only display news for now.
-    to_delete = set(data.keys()) - {"news"}
-    for k in to_delete:
-        del data[k]
-    return render_template("index.html", data=data)
+    filtered_data = [(k, v) for k, v in data if k == "news"]
+    return render_template("index.html", data=filtered_data)

@@ -55,9 +55,18 @@ news,CA,Ukiah Daily Journal,yes,https://www.ukiahdailyjournal.com/,https://check
 news,CA,Vallejo Times-Herald,yes,https://www.timesheraldonline.com/,https://checkout.timesheraldonline.com/,38.1041,-122.2566,west,https://medianewsgroup.com/wp-content/uploads/2022/09/TIMES-HERALD-LOGO-PNG.png
 news,CA,Whittier Daily News,yes,https://www.whittierdailynews.com/,https://checkout.whittierdailynews.com/,33.9792,-118.034994,west,https://medianewsgroup.com/wp-content/uploads/2022/09/Whittier_Daily_News.png
 news,CA,Woodland Daily Democrat,yes,https://www.dailydemocrat.com/,https://checkout.dailydemocrat.com/,38.6785,-121.7733,west,https://medianewsgroup.com/wp-content/uploads/2022/09/DAILY-DEMOCRAT-PNG-1.png
-news,,The Atlantic,yes,https://www.theatlantic.com/,https://www.theatlantic.com/subscribe,,,,
-news,,The Guardian,yes,https://www.theguardian.com/,https://support.theguardian.com/us,,,,
-news,,Blaze Media,yes,https://www.theblaze.com/,https://subscribe.blazemedia.com/,,,,
+news,national or world,The Atlantic,yes,https://www.theatlantic.com/,https://www.theatlantic.com/subscribe,,,,
+news,national or world,The Guardian,yes,https://www.theguardian.com/,https://support.theguardian.com/us,,,,
+news,national or world,Blaze Media,yes,https://www.theblaze.com/,https://subscribe.blazemedia.com/,,,,
+news,network podcast,CNN - State of the Union,yes,https://music.amazon.com/podcasts/c15f91af-a82a-4c13-82a8-96cd697b723e/,,,,,
+news,network podcast,ABC - World News This Week,yes,https://music.amazon.com/podcasts/a2446191-3951-4f1e-b64a-e18a4d7d0e2c/,,,,,
+news,network podcast,ABC - World News Tonight,yes,https://music.amazon.com/podcasts/f46e26e1-719b-4a42-afde-583efbe3d0bd/,,,,,
+news,network podcast,ABC - This Week,yes,https://music.amazon.com/podcasts/46bff428-077e-4d2d-888d-b74adb60a912/,,,,,
+news,network podcast,CBS - Face the Nation,yes,https://music.amazon.com/podcasts/540f6f92-58b0-4d7d-a506-6641304ab438/,,,,,
+news,network podcast,CBS - Evening News,yes,https://music.amazon.com/podcasts/2ea30e68-4d17-4cfc-99d8-c8f494ce8743/,,,,,
+news,network podcast,PBS - News Hour: Politics,yes,https://music.amazon.com/podcasts/23e06e81-b157-4e79-85aa-6b35c7a94ea4/,,,,,
+news,network podcast,PBS - News Hour: World,yes,https://music.amazon.com/podcasts/23e06e81-b157-4e79-85aa-6b35c7a94ea4/,,,,,
+news,network podcast,PBS - News Hour: Brooks & Capehart,yes,https://music.amazon.com/podcasts/3d7bf7dc-8177-43d6-a978-c422c11a4cdf/,,,,,
 podcast,astronomy,Astronomy Cast,yes,https://www.astronomycast.com/,https://www.patreon.com/astronomycast,,,,
 podcast,astronomy,Universe Today,yes,https://www.universetoday.com/,https://www.patreon.com/universetoday,,,,
 podcast,economics,Freakonomics,yes,https://freakonomics.com,https://freakonomics.com/plus,,,,

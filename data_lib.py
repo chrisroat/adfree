@@ -11,6 +11,7 @@ def load():
     dct = raw_to_dict(raw)
     return [(k, make_columns(v)) for k, v in sorted(dct.items())]
 
+
 def read_raw():
     path = Path(__file__).resolve().parent / "adfree.csv"
     with path.open() as fp:
@@ -52,11 +53,15 @@ def make_columns(type_data, num_columns=3):
             count += 1
     return cols
 
-PRIORITY_KEYS = ['national or world', 'network podcast']
+
+PRIORITY_SUBTYPES = ["national or world", "network podcast"]
+
+
 def subtype_sort(keys):
-    priority = [key for key in PRIORITY_KEYS if key in keys]
-    normal = sorted(set(keys).difference(PRIORITY_KEYS))
-    return  priority + normal
+    priority = [key for key in PRIORITY_SUBTYPES if key in keys]
+    normal = sorted(set(keys).difference(PRIORITY_SUBTYPES))
+    return priority + normal
+
 
 def remove_the(item):
     name = item["name"]
